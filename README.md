@@ -4,3 +4,4 @@
 
 - npm install axios
 - npm install router-dom
+- npm install --save sweetalert2
