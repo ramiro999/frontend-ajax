@@ -1,9 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
-import "./login.css";
 import { useNavigate, Link } from 'react-router-dom';
-import Swal from 'sweetalert2';
-import { userLogin } from '../../Service'; 
+//import Swal from 'sweetalert2';
+import { userLogin } from '../src/Service'; 
 const Login = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
