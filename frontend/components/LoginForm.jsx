@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-//import Swal from 'sweetalert2';
+import Swal from 'sweetalert2';
 import { userLogin } from '../src/Service'; 
 const Login = () => {
     const [username, setUsername] = useState('');
@@ -38,7 +38,7 @@ const Login = () => {
             </div>
             <div className="login-form">
                 <div className="login">
-                    <h1 className="text-center">Acceso a la administración del banco</h1>
+                    <h1 className="text-center">Bienvenido a la tienda Web</h1>
                     <form className="" onSubmit={login}>
                         <div className="form-group">
                             
